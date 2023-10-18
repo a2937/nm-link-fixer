@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Nexus Relinker",
+  "version": "1.0",
+  "description": "Fixes all old links on nexusmods.com.",
+  "icons": {
+    "48": "icons/nmr-48.png",
+    "128": "icons/nmr-128.png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.nexusmods.com/*"
+      ],
+      "js": [
+        "fixNexusLink.js"
+      ]
+    }
+  ]
+}
