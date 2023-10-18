@@ -4,7 +4,7 @@
 
 The Nexus Mods Outdated Links Updater is a browser extension designed to automatically update outdated mod download links on the Nexus Mods website to use the modern link format. This extension will be available for both Firefox and Chrome browsers.
 
-![Nexus Mods Manager Link Fixer](.\icons\nmr-128.png)
+![Nexus Mods Manager Link Fixer](icons/nmr-128.png)
 
 ## Features
 
